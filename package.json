@@ -1,0 +1,20 @@
+{
+  "name": "reto-3",
+  "version": "1.0.0",
+  "description": "![Build Status](https://img.shields.io/travis/com/tu-usuario/saucedemo-api-e2e.svg?style=flat-square)\r ![Coverage](https://img.shields.io/coveralls/github/tu-usuario/saucedemo-api-e2e.svg?style=flat-square)\r ![License](https://img.shields.io/github/license/tu-usuario/saucedemo-api-e2e.svg?style=flat-square)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  },
+  "dependencies": {
+    "playwright": "^1.56.1"
+  }
+}
