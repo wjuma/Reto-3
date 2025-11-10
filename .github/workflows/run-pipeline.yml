@@ -3,7 +3,8 @@ name: Playwright Test
 on:
   pull_request:
     branches: [master]
-  workflow_dispatch: 
+  push:
+    branches: [master] 
 
 jobs:
   test:
