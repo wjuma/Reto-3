@@ -11,6 +11,27 @@ export class Targets {
     };
 
     static readonly PRODUCTS_PAGE = {
-        PRODUCTS_CONTAINER: '[data-test="title"]'
+        PRODUCTS_CONTAINER: '[data-test="title"]',
+        ADD_TO_CART_SAUCE_LABS_BACKPACK_BUTTON: '[data-test="add-to-cart-sauce-labs-backpack"]'
+    };
+
+    static readonly CART_PAGE = {
+        SHOPPING_CART_LINK: '[data-test="shopping-cart-link"]',
+        CHECKOUT_BUTTON: '[data-test="checkout"]'
+    };
+
+    static readonly CHECKOUT_YOUR_INFORMATION_PAGE = {
+        FIRST_NAME_FIELD: '[data-test="firstName"]',
+        LAST_NAME_FIELD: '[data-test="lastName"]',
+        POSTAL_CODE_FIELD: '[data-test="postalCode"]',
+        CONTINUE_BUTTON: '[data-test="continue"]'
+    };
+
+    static readonly CHECKOUT_OVERVIEW_PAGE = {
+        FINISH_BUTTON: '[data-test="finish"]'
+    };
+
+    static readonly CHECKOUT_COMPLETE_PAGE = {
+        THANK_YOU_HEADER: '[data-test="complete-header"]'
     };
 }
