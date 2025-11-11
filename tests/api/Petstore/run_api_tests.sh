@@ -72,4 +72,4 @@ fi
 assert_success
 
 echo "##[section]All API tests passed successfully!"
-exit 0
+exit 0
